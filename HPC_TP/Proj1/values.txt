@@ -1,0 +1,106 @@
+##############################
+Matrix C(50000x600), with condition number 6143391237985325.0, and number of processors 2
+Type of QR decomposition: All
+In order the algorithms are: ['seq_TSQR', 'seq_MGS', 'par_TSQR', 'par_MGS', 'numpy']
+The times are: [7.971349239349365, 511.481525182724, 11.884371280670166, 367.3627414703369, 11.346792221069336]
+The condition numbers are: [1.000000000000007, 4.361094847362154, 1.000000000000007, 2.4500031720346533, 1.0000000000000038]
+The losses are: [1.5935543700227817e-15, 0.9000956497620846, 1.5935543700227817e-15, 0.7143883526249313, 1.5926979579454433e-15]
+The errors are: [3.215522716620963e-12, 4.608443635792802e-13, 3.215522716620963e-12, 4.629653793477929e-13, 3.4697233456237806e-12]
+############################################################
+Matrix C(50000x600), with condition number 6151033528022575.0, and number of processors 3
+Type of QR decomposition: All
+##############################
+##############################
+Matrix C(5000x60), with condition number 1510.7314591970908, and number of processors 4
+Type of QR decomposition: All
+In order the algorithms are: ['seq_TSQR', 'seq_MGS', 'par_TSQR', 'par_MGS', 'numpy']
+The times are: [6.495662689208984, 0.19739913940429688, 4.3312389850616455, 0.5807185173034668, 0.29944729804992676]
+The condition numbers are: [1.000000000000001, 1.0000000000002296, 1.000000000000001, 1.0000000000001512, 1.0000000000000009]
+The losses are: [9.141309418461301e-16, 2.3000020743921127e-13, 9.141309418461301e-16, 1.5182556964231703e-13, 8.103493558153407e-16]
+The errors are: [3.546233261553673e-13, 6.740794992357955e-14, 3.546233261553673e-13, 6.566644811404771e-14, 2.428708847780689e-13]
+##############################
+ 
+ 
+##############################
+Matrix C(5000x60), with condition number 1510.7314591970908, and number of processors 4
+Type of QR decomposition: par_MGS
+Time to build the QR decomposition: 18.68920922279358
+Reconstruction error norm: 6.566644811404771e-14
+Condition number of Q: 1.0000000000001512
+Loss of orthogonality: 1.5182556964231703e-13
+##############################
+ 
+ 
+##############################
+Matrix C(500x6), with condition number 2.3864902290106076, and number of processors 4
+Type of QR decomposition: All
+In order the algorithms are: ['seq_TSQR', 'seq_MGS', 'par_TSQR', 'par_MGS', 'numpy']
+The times are: [0.0015871524810791016, 0.000621795654296875, 0.003159761428833008, 0.007332563400268555, 0.000537872314453125]
+The condition numbers are: [1.0000000000000004, 1.0000000000000004, 1.0000000000000004, 1.0000000000000007, 1.0000000000000002]
+The losses are: [8.891050584722964e-16, 5.74696521906219e-16, 8.891050584722964e-16, 2.570914734260745e-16, 5.559539367845119e-16]
+The errors are: [2.3188611604247086e-14, 6.83840993476496e-15, 2.3188611604247086e-14, 6.763928569546722e-15, 1.9259610387021284e-14]
+##############################
+ 
+ 
+##############################
+Matrix C(500x6), with condition number 2.3864902290106076, and number of processors 4
+Type of QR decomposition: par_MGS
+Time to build the QR decomposition: 1.0290544033050537
+Reconstruction error norm: 6.763928569546722e-15
+Condition number of Q: 1.0000000000000007
+Loss of orthogonality: 2.570914734260745e-16
+##############################
+ 
+ 
+##############################
+Matrix C(50000x60), with condition number 1510.627397543136, and number of processors 4
+Type of QR decomposition: All
+In order the algorithms are: ['seq_TSQR', 'seq_MGS', 'par_TSQR', 'par_MGS', 'numpy']
+The times are: [11.821680784225464, 45.72405171394348, 7.221855878829956, 206.23224425315857, 2.1673104763031006]
+The condition numbers are: [1.0000000000000009, 1.0000000000001659, 1.0000000000000009, 1.0000000000000617, 1.0000000000000013]
+The losses are: [1.3960312238769335e-15, 1.6631346240579035e-13, 1.3960312238769335e-15, 6.209934422009416e-14, 9.524638717895795e-16]
+The errors are: [1.166661848938401e-12, 2.0209487713240395e-13, 1.166661848938401e-12, 1.9799432848906895e-13, 9.650915673868794e-13]
+##############################
+ 
+ 
+##############################
+Matrix C(50000x60), with condition number 1510.627397543136, and number of processors 4
+Type of QR decomposition: par_MGS
+Time to build the QR decomposition: 231.65551805496216
+Reconstruction error norm: 1.9799432848906895e-13
+Condition number of Q: 1.0000000000000617
+Loss of orthogonality: 6.209934422009416e-14
+##############################
+ 
+ 
+##############################
+Matrix shar_te2-b1, with condition number 1961110891517260.8, and number of processors 4
+Type of QR decomposition: All
+In order the algorithms are: ['seq_TSQR', 'seq_MGS', 'par_TSQR', 'par_MGS', 'numpy']
+The times are: [51.169164419174194, 952.328405380249, 43.092259645462036, 25.159436464309692, 4.9895570278167725]
+The condition numbers are: [1.0000000000000027, 15.430411962763635, 1.0000000000000027, 19.00369094465945, 1.0000000000000036]
+The losses are: [9.995946355567257e-15, 0.9916352155420685, 9.995946355567257e-15, 0.9944772780926816, 1.0001881182941704e-14]
+The errors are: [3.6268035065942e-14, 5.505405568253288e-15, 3.6268035065942e-14, 5.328586238419392e-15, 3.1201371966689466e-14]
+##############################
+ 
+ 
+##############################
+Matrix shar_te2-b1, with condition number 1961110891517260.8, and number of processors 4
+Type of QR decomposition: par_MGS
+##############################
+Matrix mk12-b1, with condition number 1603298265002524.8, and number of processors 4
+Type of QR decomposition: All
+##############################
+Matrix mk12-b1, with condition number 1603298265002524.8, and number of processors 4
+Type of QR decomposition: par_MGS
+##############################
+##############################
+Matrix ch8-8-b1, with condition number 1415234776562309.5, and number of processors 4
+Type of QR decomposition: All
+##############################
+Matrix ch8-8-b1, with condition number 1415234776562309.5, and number of processors 4
+Type of QR decomposition: par_MGS
+##############################
+##############################
+##############################
+##############################
